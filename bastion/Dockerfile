@@ -7,4 +7,4 @@ RUN apk update && apk add \
     openssh-client \
     vim
 
-ENTRYPOINT ["/bin/sleep", "99999999"]
+ENTRYPOINT ["/bin/bash"]
