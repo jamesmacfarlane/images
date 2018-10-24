@@ -7,4 +7,6 @@ RUN apk update && apk add \
     openssh-client \
     vim
 
+ADD aliases.sh /etc/profile.d/aliases.sh
+
 ENTRYPOINT ["/bin/bash"]
